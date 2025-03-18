@@ -44,11 +44,26 @@ p {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.course-list li .course-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.course-list li .semester {
+    font-style: italic;
+    color: #888;
+}
+
+.course-list li .course-description {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
 }
 
 .course-list li span {
-    color: #888;
+    display: block;
+    margin-bottom: 5px;
 }
